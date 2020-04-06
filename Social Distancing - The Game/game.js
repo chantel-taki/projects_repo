@@ -1,12 +1,16 @@
 class Game {
     constructor(){
-        
+       // this.background = new Background();
     }
     initialize(){
-        this.shopBackground = new Background();
+        this.background = new Background();
     }
     display(){
         clear();
-        this.shopBackground.display();
+        this.background.display();
+      //  this.player.display();
+    }
+    setup(){
+       // this.player.setup();
     }
 }
