@@ -6,7 +6,7 @@ function preload (){
 }
 
 function setup() { 
-   createCanvas(1920, 1080);
+  createCanvas(1920, 1080);
   game.setup();
    // image(img, 0, 0);
   } 
@@ -18,3 +18,5 @@ function setup() {
    game.display();
 
   }
+
+  
