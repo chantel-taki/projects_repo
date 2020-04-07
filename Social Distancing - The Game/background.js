@@ -2,7 +2,7 @@ class Background {
     constructor() {
        // this.random = 0;
         this.images = [
-            { src: loadImage("assets/Layer1.png"), x: 0, speed: 0 },
+            { src: loadImage("assets/Layer1.png"), x: 0, speed: 1.5 },
             { src: loadImage("assets/Layer2.png"), x: 0, speed: 1 },
             { src: loadImage("assets/Layer3.png"), x: 0, speed: 2 },
           //  { src: loadImage("assets/Layer4.png"), x: 0, speed: 2 },

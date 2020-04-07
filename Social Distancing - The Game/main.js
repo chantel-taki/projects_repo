@@ -19,4 +19,14 @@ function setup() {
 
   }
 
-  
+  function keyPressed(){
+    // W key
+    if (keyCode === 87) {
+      game.player.jump();
+    }
+    // S key
+    if (keyCode === 83) {
+      game.player.duck();
+    }
+  }
+
