@@ -6,9 +6,9 @@ class Player {
         this.height = this.img.height;
         this.width = this.img.width;
         this.x = 100;
-        this.y = 200;
+        this.y = 500;
     }
     display() {
-        Image(this.img, this.x, this.y);
+        image(this.img, this.x, this.y);
     }
 }
